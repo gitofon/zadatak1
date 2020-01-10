@@ -1,0 +1,67 @@
+<html>
+    <head>
+
+    </head>
+    <header>
+        <div id="Naslov">
+            <p><b><i>NASLOV</i></b></p>
+        </div>
+    </header>
+    <body>
+        <div class="Slika">
+            <a href="https://www.slatkoteka.rs">
+                <img src="img/hippo.png" />
+            </a>
+        </div>
+        <div class="lista">
+            <ul>
+                <li>Prvi element liste
+                    <ul>
+                        <li>Prvi element podliste</li>
+                        <li>Drugi element podliste</li>
+                    </ul>
+                </li>
+                <li>Drugi element liste</li>
+                <li>Treci element liste</li>
+            </ul>
+        </div>
+        <form>
+            <h2>Popunite Formu</h2>
+            <input type="text" id="name" class="form-control" placeholder="Ime" required>
+            <br>
+            <select name="pol" id="pol">
+                <option value="musko">Musko</option>
+                <option value="zensko">Zensko</option>
+                <option value="apache helicopter">Apache Helicopter</option>
+            </select>
+            <br>
+            <button type="submit" class="btn btn-custom btn-lg">Pošaljite poruku</button>
+        </form>
+    </body>
+
+    <footer>
+        <h3>By Unknown Team</h3>
+    </footer>
+
+    <style>
+        body{
+            background-color: grey;
+            text-align: center;
+            font: message-box;
+            margin: auto;
+            color: white;
+        }
+        #Naslov{
+            font-size: 40;
+        }
+        .slika{
+            padding: 30px;
+        }
+        .lista{
+            text-align: start;
+        }
+        .slika :hover{
+            opacity: 50%;
+        }
+    </style>
+</html>
